@@ -1,0 +1,125 @@
+.contenedorBotones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.contenedorBotones button {
+  margin-right: 20px; /* Margen derecho solo para los botones, excepto el último */
+}
+
+
+.Titulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+  color: black; /* Color del texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  padding: 20px; /* Espacio interior */
+}
+
+
+
+.personajes-container {
+  width: 100%;
+  max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
+}
+
+.personajes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribuye los elementos uniformemente con espacios entre ellos */
+}
+
+/* Estilos para cada tarjeta de personaje */
+.personajes-grid .Heroe {
+  margin-bottom: 20px; /* Espacio entre las tarjetas */
+}
+.forms-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms-center input[type="text"],
+.forms-center input[type="email"],
+.forms-center input[type="password"],
+.forms-center textarea,
+.forms-center select {
+  padding: 10px; /* Espaciado interior */
+  border: 1px solid #ccc; /* Borde sólido y delgado */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.forms-center input[type="text"]:focus,
+
+.forms-center select:focus {
+  outline: none; /* Quita el contorno al enfocar */
+  border-color: #007bff; /* Cambia el color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega una sombra al enfocar */
+}
+
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacio entre cada barra de búsqueda */
+}
+.heroe-container {
+  display: flex; /* Utiliza flexbox */
+  flex-direction: column; /* Dirección de los elementos de columna */
+  align-items: center; /* Centra los elementos horizontalmente */
+  text-align: center; /* Centra el texto horizontalmente */
+  background-color: #e3f2fd; /* Fondo azul clarito */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 20px; /* Espacio alrededor del contenido */
+  margin-bottom: 20px; /* Margen inferior para separar los elementos */
+}
+
+/* Estilos para el título */
+.heroe-container h2 {
+  margin-bottom: 10px; /* Espacio inferior para separar el título de otros elementos */
+}
+
+/* Estilos para la imagen */
+.heroe-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px; /* Si deseas redondear también las esquinas de la imagen */
+}
+
+/* Estilos para el audio */
+.heroe-container audio {
+  margin-top: 10px; /* Espacio superior para separar el audio del resto del contenido */
+}
+
+/* Estilos para el botón de eliminar */
+.heroe-container .Deletebutton {
+  margin-top: 10px; /* Espacio superior para separar el botón del resto del contenido */
+}
+body {
+  background-color: #afcfc0; /* Un gris claro como color de fondo */
+}
+.button-styled {
+  padding: 10px 20px; /* Espaciado interior */
+  border: 1px solid #fff; /* Borde sólido blanco */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #fff; /* Fondo blanco */
+  color: #000; /* Color de texto negro */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transición suave */
+}
+
+.button-styled:hover {
+  background-color: #e2e1e1; /* Fondo ligeramente más oscuro al pasar por encima */
+  border-color: #ccc; /* Borde ligeramente más oscuro al pasar por encima */
+}
+
