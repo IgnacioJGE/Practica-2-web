@@ -1,7 +1,6 @@
 import { FreshContext, Handlers, PageProps } from "$fresh/server.ts";
 import axios from "npm:axios";
 import Heroe from "../components/Heroes.tsx";
-import React, { useEffect, useState } from "react";
 import DeletePJ from "../islands/eliminador.tsx";
 import { Super } from "./allpj.tsx";
 
